@@ -6,7 +6,7 @@ public void setup(){
     double num = Double.parseDouble(digits.substring(0, 10));
     
     if(isPrime(num) == true){
-      println("The first ten digit prime found in consecutive digits of e is: " + num);
+      println("The first ten digit prime found in consecutive digits of e is: " + digits);
       break;
     }
   }
